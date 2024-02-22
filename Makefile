@@ -8,6 +8,6 @@ sush: $(OBJS)
 $(OBJS): sush.h
 
 clean:
-				rm -f 9cc *.o *~ tmp*
+				rm -f sush *.o *~ tmp*
 
 .PHONY: clean
